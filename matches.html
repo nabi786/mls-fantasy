@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MLS Fantasy Cheatsheet</title>
+    <!-- fav icon -->
+    <link rel="icon" type="image/x-icon" href="images/logo/favicon.png">
+
+
+    <!-- font awesome files -->
+    <script src="https://kit.fontawesome.com/c321fabd33.js" crossorigin="anonymous"></script>
+
+    <!-- bootstrap CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+    <!-- css files -->
+    <!-- owl carousel setting -->
+
+
+
+    <!-- slick slider CSS -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+    <!-- slick slider JS -->
+
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+    <!-- custom CSS -->
+    <link rel="stylesheet" href="public/css/index.css">
+
+
+
+
+</head>
+
+<body>
+
+
+    <!-- main header -->
+    <div class="headerFullBox">
+        <div class="container" id="header">
+            <div class="logoSec">
+                <img src="images/logo/logo.png" alt="logo" id="logo">
+            </div>
+
+            <div class="navSec">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="players.html">Player</a>
+                    </li>
+                    <li>
+                        <a href="matches.html" class="activeMenu">Match</a>
+                    </li>
+                    <li>
+                        <a href="#">Injuries</a>
+                    </li>
+                    <li>
+                        <a href="#">Standing</a>
+                    </li>
+                    <li>
+                        <a href="#">Compare Player</a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="searchBox">
+                <div class="searchBoxInnerBox">
+                    <input type="text" placeholder="search">
+                </div>
+
+                <i class="fa-solid fa-magnifying-glass" id="searchBtn"></i>
+            </div>
+
+            <button id="resNavBtn"><i class="fa fa-bars"></i></button>
+            <!-- nav traiangleBG -->
+            <div class="navTriangleBg"></div>
+        </div>
+    </div>
+
+
+    <div class="marqueeFullWidthContainer">
+
+        <div class="container marqueeContainer">
+
+            <div class="marqueeTitle">
+                <span>
+                    TOP SCORERS ROUND 3
+                </span>
+                
+                
+            </div>
+            <div class="headerMarque">
+                <marquee onmouseover=this.stop(); onmouseout=this.start();>
+
+
+                    <span> #1. <img src="https://www.mlscheatsheet.com/img/photos/players/175077.png"> Bill Tuiloma -
+                        POR - 17</span>
+
+                    <span>|</span>
+
+                    <span>#1. <img src="https://www.mlscheatsheet.com/img/photos/players/117880.png"> Lucas Zelarayan -
+                        CLB - 15</span>
+
+                    <span>|</span>
+
+                    <span> #1. <img src="https://www.mlscheatsheet.com/img/photos/players/234433.png"> Dayne St. Clair -
+                        MIN - 15</span>
+
+                    <span>|</span>
+                    <span> #1. <img src="https://www.mlscheatsheet.com/img/photos/players/218313.png"> Brandon Vazquez -
+                        CIN - 15 </span>
+
+
+                </marquee>
+            </div>
+
+            <div class="marqueeTitle marqueeTitle2">
+                <span>
+                    <div></div> Live Tranding
+                </span>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- heroSection -->
+    <div class="manHeroSection">
+        <div class="heroSectonContent">
+
+            <h2>Matches</h2>
+        </div>
+    </div>
+    <div class="timerOuterBox">
+        <div class="container">
+            <h2 class="rountStart">Round 3 Start In</h2>
+            <div class="timerBox">
+                <h2>
+                    <span id="days">01</span>
+                    <span>Days</span>
+                </h2>
+                <h2>
+                    <span id="hours"></span>
+                    <span>Hours</span>
+                </h2>
+                <h2>
+                    <span id="minutes"></span>
+                    <span>Minutes</span>
+                </h2>
+                <h2>
+                    <span id="seconds"></span>
+                    <span>Seconds</span>
+                </h2>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- tickers -->
+    <div class="tickerOuterBox container">
+
+        <div class="ticker">
+            <a href="#">
+                <div class="teakerHeader">
+                    <span>
+                        3/13
+                    </span>
+                    <span>
+                        Regular
+                    </span>
+                    <span>
+                        1:30 PM
+                    </span>
+                </div>
+                <div class="teakerContent">
+                    <div class="teakerTeam teakerTeam1">
+                        <div class="teackerTeamlogo">
+                            <img
+                                src="https://images.mlssoccer.com/image/upload/w_128,h_128,c_pad/f_png/v1621373535/assets/logos/CLB-Logo-New-480.png">
+                        </div>
+                        <span class="teakerTeamName">CLB</span>
+                        <span class="teakerTeamValue">-165</span>
+                    </div>
+                    <div class="teakerTeam teakerTeam2">
+                        <div class="teackerTeamlogo">
+                            <img
+                                src="https://images.mlssoccer.com/image/upload/w_128,h_128,c_pad/f_png/v1614970755/assets/logos/2077-toronto-fc-logo_gx1gtb.png">
+                        </div>
+                        <span class="teakerTeamName">TOR</span>
+                        <span class="teakerTeamValue">+400</span>
+                    </div>
+                </div>
+                <div class="teakerFooter">
+                    <span>
+                        TVA Sports
+                    </span>
+                </div>
+            </a>
+        </div>
+
+        <div class="ticker">
+            <a href="#">
+                <div class="teakerHeader">
+                    <span>
+                        3/13
+                    </span>
+                    <span>
+                        Regular
+                    </span>
+                    <span>
+                        1:30 PM
+                    </span>
+                </div>
+                <div class="teakerContent">
+                    <div class="teakerTeam teakerTeam1">
+                        <div class="teackerTeamlogo">
+                            <img
+                                src="https://images.mlssoccer.com/image/upload/w_128,h_128,c_pad/f_png/v1621373535/assets/logos/CLB-Logo-New-480.png">
+                        </div>
+                        <span class="teakerTeamName">CLB</span>
+                        <span class="teakerTeamValue">-165</span>
+                    </div>
+                    <div class="teakerTeam teakerTeam2">
+                        <div class="teackerTeamlogo">
+                            <img
+                                src="https://images.mlssoccer.com/image/upload/w_128,h_128,c_pad/f_png/v1614970755/assets/logos/2077-toronto-fc-logo_gx1gtb.png">
+                        </div>
+                        <span class="teakerTeamName">TOR</span>
+                        <span class="teakerTeamValue">+400</span>
+                    </div>
+                </div>
+                <div class="teakerFooter">
+                    <span>
+                        TVA Sports
+                    </span>
+                </div>
+            </a>
+        </div>
+
+        <div class="ticker">
+            <a href="#">
+                <div class="teakerHeader">
+                    <span>
+                        3/13
+                    </span>
+                    <span>
+                        Regular
+                    </span>
+                    <span>
+                        1:30 PM
+                    </span>
+                </div>
+                <div class="teakerContent">
+                    <div class="teakerTeam teakerTeam1">
+                        <div class="teackerTeamlogo">
+                            <img
+                                src="https://images.mlssoccer.com/image/upload/w_128,h_128,c_pad/f_png/v1621373535/assets/logos/CLB-Logo-New-480.png">
+                        </div>
+                        <span class="teakerTeamName">CLB</span>
+                        <span class="teakerTeamValue">-165</span>
+                    </div>
+                    <div class="teakerTeam teakerTeam2">
+                        <div class="teackerTeamlogo">
+                            <img
+                                src="https://images.mlssoccer.com/image/upload/w_128,h_128,c_pad/f_png/v1614970755/assets/logos/2077-toronto-fc-logo_gx1gtb.png">
+                        </div>
+                        <span class="teakerTeamName">TOR</span>
+                        <span class="teakerTeamValue">+400</span>
+                    </div>
+                </div>
+                <div class="teakerFooter">
+                    <span>
+                        TVA Sports
+                    </span>
+                </div>
+            </a>
+        </div>
+
+        <div class="ticker">
+            <a href="#">
+                <div class="teakerHeader">
+                    <span>
+                        3/13
+                    </span>
+                    <span>
+                        Regular
+                    </span>
+                    <span>
+                        1:30 PM
+                    </span>
+                </div>
+                <div class="teakerContent">
+                    <div class="teakerTeam teakerTeam1">
+                        <div class="teackerTeamlogo">
+                            <img
+                                src="https://images.mlssoccer.com/image/upload/w_128,h_128,c_pad/f_png/v1621373535/assets/logos/CLB-Logo-New-480.png">
+                        </div>
+                        <span class="teakerTeamName">CLB</span>
+                        <span class="teakerTeamValue">-165</span>
+                    </div>
+                    <div class="teakerTeam teakerTeam2">
+                        <div class="teackerTeamlogo">
+                            <img
+                                src="https://images.mlssoccer.com/image/upload/w_128,h_128,c_pad/f_png/v1614970755/assets/logos/2077-toronto-fc-logo_gx1gtb.png">
+                        </div>
+                        <span class="teakerTeamName">TOR</span>
+                        <span class="teakerTeamValue">+400</span>
+                    </div>
+                </div>
+                <div class="teakerFooter">
+                    <span>
+                        TVA Sports
+                    </span>
+                </div>
+            </a>
+        </div>
+
+        <div class="ticker">
+            <a href="#">
+                <div class="teakerHeader">
+                    <span>
+                        3/13
+                    </span>
+                    <span>
+                        Regular
+                    </span>
+                    <span>
+                        1:30 PM
+                    </span>
+                </div>
+                <div class="teakerContent">
+                    <div class="teakerTeam teakerTeam1">
+                        <div class="teackerTeamlogo">
+                            <img
+                                src="https://images.mlssoccer.com/image/upload/w_128,h_128,c_pad/f_png/v1621373535/assets/logos/CLB-Logo-New-480.png">
+                        </div>
+                        <span class="teakerTeamName">CLB</span>
+                        <span class="teakerTeamValue">-165</span>
+                    </div>
+                    <div class="teakerTeam teakerTeam2">
+                        <div class="teackerTeamlogo">
+                            <img
+                                src="https://images.mlssoccer.com/image/upload/w_128,h_128,c_pad/f_png/v1614970755/assets/logos/2077-toronto-fc-logo_gx1gtb.png">
+                        </div>
+                        <span class="teakerTeamName">TOR</span>
+                        <span class="teakerTeamValue">+400</span>
+                    </div>
+                </div>
+                <div class="teakerFooter">
+                    <span>
+                        TVA Sports
+                    </span>
+                </div>
+            </a>
+        </div>
+
+        <div class="ticker">
+            <a href="#">
+                <div class="teakerHeader">
+                    <span>
+                        3/13
+                    </span>
+                    <span>
+                        Regular
+                    </span>
+                    <span>
+                        1:30 PM
+                    </span>
+                </div>
+                <div class="teakerContent">
+                    <div class="teakerTeam teakerTeam1">
+                        <div class="teackerTeamlogo">
+                            <img
+                                src="https://images.mlssoccer.com/image/upload/w_128,h_128,c_pad/f_png/v1621373535/assets/logos/CLB-Logo-New-480.png">
+                        </div>
+                        <span class="teakerTeamName">CLB</span>
+                        <span class="teakerTeamValue">-165</span>
+                    </div>
+                    <div class="teakerTeam teakerTeam2">
+                        <div class="teackerTeamlogo">
+                            <img
+                                src="https://images.mlssoccer.com/image/upload/w_128,h_128,c_pad/f_png/v1614970755/assets/logos/2077-toronto-fc-logo_gx1gtb.png">
+                        </div>
+                        <span class="teakerTeamName">TOR</span>
+                        <span class="teakerTeamValue">+400</span>
+                    </div>
+                </div>
+                <div class="teakerFooter">
+                    <span>
+                        TVA Sports
+                    </span>
+                </div>
+            </a>
+        </div>
+
+
+    </div>
+
+
+
+    <!-- section -->
+    <section>
+        <div class="container matchedContent">
+            <div class="section_butons">
+                <button>
+                    <i class="fa-solid fa-angle-left"></i>
+                </button>
+                <h2>Round 3</h2>
+                
+                <button>
+                    <i class="fa-solid fa-angle-right"></i>
+                </button>
+            </div>
+            <div class="pageRefreshIn">
+                <span style="text-align: center;">
+                    Refreshing in 30
+                </span>
+            </div>
+        </div>
+
+        <div class="container TeamMatchesListOuterBox">
+            <div class="teamMatchesListHeader">
+                <span>
+                    TEAMS ON BYE<br>-NONE-
+                </span>
+
+                <span>
+                    TEAMS PLAYING TWICE<br>-NONE-
+                </span>
+            </div>
+
+
+
+            <div class="matchesTeamTeblet">
+                <div class="mathcesTabletTeam">
+                    <div class="matchedTabletTeamImgBox">
+                        <img src="https://www.mlscheatsheet.com/img/photos/logos/9668.png" style="width: 100%;">
+                    </div>
+                    <div class="matchedTabletTeamContentBox">
+
+                        <span class="matchesTeamName">New York City FC</span>
+                        <span class="matchesTeamNumbr">1-1-1</span>
+                        <span class="matchesTeamTebletTeamScore">4</span>
+                        <ul class="matchesTabletTeamLinks">
+                            <li>
+                                <a href="#">
+
+                                    <i class="fa-solid fa-futbol"></i> Callens
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-solid fa-futbol"></i>
+                                    Magno
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-solid fa-futbol"></i>
+                                    Rodriguez
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-solid fa-futbol"></i>
+                                    Andrade
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- match detials -->
+                <div class="mathcesTabletTeamContent">
+                    <span>Saturday, March 12, 2022</span>
+
+
+                    <span class="matchStatus">FINAL</span>
+
+
+                    <br>
+                    <span class="matchLineStatus">
+                        LINEUPS: <span style="color: #2db834; font-weight: 500;">CONFIRMED</span>
+                    </span>
+                    <div class="prematch-info">
+                        <span>Yankee Stadium</span>
+                        <br>
+                        <span>Bronx, NY</span>
+                        <br>
+                        <img src="https://www.mlscheatsheet.com/img/weather/clear-day.png">
+                        <span>33</span>
+                        <br>
+                        <span>(Wind: 17mph NNW)</span>
+                    </div>
+                </div>
+
+                <div class="mathcesTabletTeam">
+                    <div class="matchedTabletTeamImgBox">
+                        <img src="https://www.mlscheatsheet.com/img/photos/logos/14880.png" style="width: 100%;">
+                    </div>
+                    <div class="matchedTabletTeamContentBox">
+
+                        <span class="matchesTeamName">CF Montreal</span>
+                        <span class="matchesTeamNumbr">0-3-0</span>
+                        <span class="matchesTeamTebletTeamScore">1</span>
+                        <ul class="matchesTabletTeamLinks">
+                            <li>
+                                <a href="#">
+                                    Brault-Guillard
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <button class="matchMoreDetailsBtn">
+                    MATCH DETAILS
+                </button>
+            </div>
+
+
+
+
+            <div class="matchesTeamTeblet">
+                <div class="mathcesTabletTeam">
+                    <div class="matchedTabletTeamImgBox">
+                        <img src="https://www.mlscheatsheet.com/img/photos/logos/9668.png" style="width: 100%;">
+                    </div>
+                    <div class="matchedTabletTeamContentBox">
+
+                        <span class="matchesTeamName">New York City FC</span>
+                        <span class="matchesTeamNumbr">1-1-1</span>
+                        <span class="matchesTeamTebletTeamScore">4</span>
+                        <ul class="matchesTabletTeamLinks">
+                            <li>
+                                <a href="#">
+
+                                    <i class="fa-solid fa-futbol"></i> Callens
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-solid fa-futbol"></i>
+                                    Magno
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-solid fa-futbol"></i>
+                                    Rodriguez
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-solid fa-futbol"></i>
+                                    Andrade
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- match detials -->
+                <div class="mathcesTabletTeamContent">
+                    <span>Saturday, March 12, 2022</span>
+
+
+                    <span class="matchStatus">FINAL</span>
+
+
+                    <br>
+                    <span class="matchLineStatus">
+                        LINEUPS: <span style="color: #2db834; font-weight: 500;">CONFIRMED</span>
+                    </span>
+                    <div class="prematch-info">
+                        <span>Yankee Stadium</span>
+                        <br>
+                        <span>Bronx, NY</span>
+                        <br>
+                        <img src="https://www.mlscheatsheet.com/img/weather/clear-day.png">
+                        <span>33</span>
+                        <br>
+                        <span>(Wind: 17mph NNW)</span>
+                    </div>
+                </div>
+
+                <div class="mathcesTabletTeam">
+                    <div class="matchedTabletTeamImgBox">
+                        <img src="https://www.mlscheatsheet.com/img/photos/logos/14880.png" style="width: 100%;">
+                    </div>
+                    <div class="matchedTabletTeamContentBox">
+
+                        <span class="matchesTeamName">CF Montreal</span>
+                        <span class="matchesTeamNumbr">0-3-0</span>
+                        <span class="matchesTeamTebletTeamScore">1</span>
+                        <ul class="matchesTabletTeamLinks">
+                            <li>
+                                <a href="#">
+                                    Brault-Guillard
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <button class="matchMoreDetailsBtn">
+                    MATCH DETAILS
+                </button>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="teamMatchesListHeader teamMatchesListHeaderfooter">
+                <span>
+                    TEAMS ON BYE<br>-NONE-
+                </span>
+                <span>
+                    TEAMS PLAYING TWICE<br>-NONE-
+                </span>
+            </div>
+        </div>
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="container footerBox">
+            <div class="footerCol">
+                <div class="logoSec">
+                    <img src="images/logo/logo2.png">
+                </div>
+                <!-- <div class="footerEmailAdressBox">
+                    <div>
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>
+                            contact@mls.com
+                        </span>
+                    </div>
+                    
+                </div> -->
+                <p class="container joinOUrLeague">
+                    <a href="https://fantasy.mlssoccer.com/#classic/leagues/20499/join/LN6N3EJZ" target="_blank"
+                        class="joinOurLegueBtn">Join Our MLS Fantasy League <i class="fa fa-caret-right"></i></a>
+                    <a style="text-align: left; display: block;">
+                        Stay connected with us.
+                    </a>
+                </p>
+                <div class="footerEmailBox">
+                    <input type="email" placeholder="Email">
+                    <button type="submit" style="margin-left: auto; margin-right: auto;">Submit</button>
+                </div>
+                <div class="footerSocialIcons">
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+
+        <div class="container copyrightBox">
+            <span>
+                2015-2022 MLS Fantasy Cheatsheet
+            </span>
+            <span>
+                <a href="#">Privacy Policy</a>
+            </span>
+        </div>
+    </footer>
+
+
+</body>
+<script src="public/js/index.js"></script>
+<script>
+
+    setInterval(function () {
+        var time = new Date()
+        var hours = time.getHours()
+        if (hours > 12) {
+            hours = hours - 12
+        }
+        var minutes = time.getMinutes()
+        var seconds = time.getSeconds()
+
+        if (minutes < 10) {
+            minutes = `0${minutes}`
+        }
+        if (seconds < 10) {
+            seconds = `0${seconds}`
+        }
+        if (hours < 10) {
+            hours = `0${hours}`
+        }
+
+        document.getElementById('hours').innerHTML = hours
+        document.getElementById('minutes').innerHTML = minutes
+        document.getElementById('seconds').innerHTML = seconds
+
+    }, 0)
+
+
+    $('.tickerOuterBox').slick({
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        prevArrow: "<button type='button' class='slick-prev pull-left'><i class='fa fa-angle-left' aria-hidden='true'></i></button>",
+        nextArrow: "<button type='button' class='slick-next pull-right'><i class='fa fa-angle-right' aria-hidden='true'></i></button>",
+
+        responsive: [
+            {
+                breakpoint: 1000,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                },
+
+
+            },
+            {
+                breakpoint: 700,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                },
+
+
+            },
+            {
+                breakpoint: 500,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                },
+
+
+            }
+        ]
+
+    });
+</script>
+
+</html>
